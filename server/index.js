@@ -1,6 +1,9 @@
-import express from "express";
+// import express from "express";
 import * as dotenv from "dotenv";
-import cors from "cors";
+// import cors from "cors";
+const cors = require('cors');
+const express = require('express');
+
 
 import connectDB from "./mongodb/connect.js";
 import postRoutes from "./routes/postRoutes.js";
